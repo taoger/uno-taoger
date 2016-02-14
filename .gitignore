@@ -3,3 +3,4 @@ node_modules/
 .sass-cache/
 assets/vendor
 assets/scss/bourbon
+npm-debug.log

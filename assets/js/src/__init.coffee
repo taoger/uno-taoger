@@ -22,13 +22,16 @@ $ ->
     readTime: ->
       DateInDays = (selector, cb) ->
         $(selector).each ->
-          postDate = $(this).html()
+          #postDate = $(this).html()
+          date = $(this).html()
+          postDate = this.outerHTML.substr(16,16)
           postDateNow = new Date(Date.now())
           postDateInDays = Math.floor((postDateNow - new Date(postDate)) / 86400000)
 
-          if postDateInDays is 0 then postDateInDays = 'today'
-          else if postDateInDays is 1 then postDateInDays = "yesterday"
-          else postDateInDays = "#{postDateInDays} days ago"
+          if postDateInDays is 0 then postDateInDays = '今天'
+          else if postDateInDays is 1 then postDateInDays = "昨天"
+          #else postDateInDays = "#{postDateInDays} days ago"
+          else postDateInDays = date
 
           $(this).html(postDateInDays)
           $(this).mouseover -> $(this).html(postDate)
