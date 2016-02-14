@@ -26,7 +26,7 @@ You can see a [demo](http://blog.taoger.info) in my own blog. Also you can check
 Enter in the theme folder (`content/themes`) of your Ghost installation and paste the follow command:
 
 ```bash
-$ curl -sSL https://git.io/vgyz2 | sh
+$ curl -sSL https://git.io/vgyzb | sh
 ```
 
 **NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:

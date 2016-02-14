@@ -1,12 +1,12 @@
 #!/bin/bash
 
-if [ -d "uno-zen" ]; then
-  echo "\nUno Zen is already installed. Maybe you want to update? Run:"
+if [ -d "uno-taoger" ]; then
+  echo "\nUno Taoger is already installed. Maybe you want to update? Run:"
   echo "\nsh scripts/update.sh"
   exit
 fi
 
-git clone https://github.com/Kikobeats/uno-zen.git && cd uno-zen
+git clone https://github.com/taoger/uno-taoger.git && cd uno-taoger
 
 . "$PWD"/scripts/utils.sh
 
