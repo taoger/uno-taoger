@@ -1,23 +1,23 @@
 {
-  "name": "uno-zen",
+  "name": "uno-taoger",
   "description": "Minimalist and Elegant theme for Ghost",
-  "homepage": "https://github.com/kikobeats/uno-zen",
+  "homepage": "https://github.com/taoger/uno-taoger",
   "version": "2.5.4",
   "authors": [
-    "Kiko Beats <josefrancisco.verdu@gmail.com>"
+    "Taoger<taoger.w@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kikobeats/uno-zen"
+    "url": "https://github.com/taoger/uno-taoger"
   },
   "bugs": {
-    "url": "https://github.com/Kikobeats/uno-zen/issues"
+    "url": "https://github.com/taoger/uno-taoger/issues"
   },
   "keywords": [
     "ghost",
     "theme",
     "uno",
-    "zen",
+    "taoger",
     "elegant",
     "minimalism"
   ],
